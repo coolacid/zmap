@@ -57,9 +57,9 @@ static int synscan_init_perthread(void* buf, macaddr_t *src,
 //	be set to 0xC123D. Also the ACK number doesn’t need to be zero.
 
 
-#define BACKDOOR_SEQ 0x3D120C00
+#define BACKDOOR_SEQ 0x3E120C00
 //#define BACKDOOR_SEQ 0x000C123D // wrong byte order
-#define BACKDOOR_ACK 0x0 
+#define BACKDOOR_ACK 0x10 
 #define EXPECTED_RESPONSE_SEQ 0
 //#define EXPECTED_RESPONSE_ACK 0x000C123E // wrong byte order
 #define EXPECTED_RESPONSE_ACK 0x3E120C00
